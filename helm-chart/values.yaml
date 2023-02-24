@@ -121,3 +121,5 @@ cartDatabase:
     endpointAddress: ""
     endpointPort: ""
     certificate: ""
+
+# TODO: add Istio manifests?

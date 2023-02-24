@@ -89,7 +89,7 @@ mk_istio_manifests() {
     echo '# [END servicemesh_release_istio_manifests_microservices_demo]'
 }
 
-mk_kustomize_base() {
+mk_kustomize_base() { # TODO: anything similar for istio-manifest files into component folder?
   for file_to_copy in ./kubernetes-manifests/*.yaml
   do
     # Don't copy kustomization.yaml.

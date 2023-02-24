@@ -87,6 +87,8 @@ Here is the list of the variations available as Kustomize components that you co
 - [**Do not expose the `frontend` publicly**](components/non-public-frontend)
 - [**Set the `frontend` to manage only one single shared session**](components/single-shared-session)
 
+TODO: add note here
+
 ### Select variations
 
 To customize Online Boutique with its variations, you need to update the default `kustomize/kustomization.yaml` file. You could do that manually, use `sed`, or use the `kustomize edit` command like illustrated below.

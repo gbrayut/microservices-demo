@@ -1,3 +1,4 @@
+TODO: Update docs
 # Deploying to an Istio-enabled cluster 
 
 This repository provides an [`istio-manifests`](/istio-manifests) directory containing ingress resources (an Istio `Gateway` and `VirtualService`) needed to expose the app frontend running inside a Kubernetes cluster.
